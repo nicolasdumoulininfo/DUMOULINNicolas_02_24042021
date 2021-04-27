@@ -59,7 +59,7 @@ height: 200px;
 
 #formrecherche{
 	position: absolute;
-	top:12px;
+	top:11px;
 	font-family:ralewayregular;
 	font-size: 0.8em;
 	font-weight: bold;
@@ -85,91 +85,38 @@ height: 200px;
 	display: flex;
 	position: relative;
 	top:70px;
-	/*background-color: yellow;*/
+	left:0px;
+	background-color: yellow;	
 }
 
-#boutonfiltre{
-	padding-right:20px;
-	padding-top:12px;
-	padding-bottom:8px;
-	font-size: 0.8em;
-}
-#boutoneco{
-	
-	padding-left: 40px;
-	border: 2px solid #f2f2f2;
-	border-radius: 15px;
-	padding-top:8px;
-	padding-bottom:8px;
-	padding-right: 10px;
-	font-size: 0.9em;
-	font-family: ralewayregular;
-}
 
-#boutonfam{
-	
-	padding-left: 40px;
-	border: 2px solid #f2f2f2;
-	border-radius: 15px;
-	padding-top:8px;
-	padding-bottom:8px;
-	padding-right: 10px;
-	font-size: 0.9em;
-	font-family: ralewayregular;
-}
-
-#boutonrom{
-	padding-left: 40px;
-	border: 2px solid #f2f2f2;
-	border-radius: 15px;
-	padding-top:8px;
-	padding-bottom:8px;
-	padding-right: 10px;
-	font-size: 0.9em;
-	font-family: ralewayregular;
-}
-
-#boutonani{
-	padding-left: 40px;
-	border: 2px solid #f2f2f2;
-	border-radius: 15px;
-	padding-top:8px;
-	padding-bottom:8px;
-	padding-right: 10px;
-	font-size: 0.9em;
-	font-family: ralewayregular;
-}
-/*
-#filtres2{
-	display: flex;
-
-}
-*/
-/*#filtres{
-	position: relative;
-	top:80px;
-}
-.filtres{
-	border-top: 2px solid grey;
-	border-bottom: 2px solid grey;
-	border-top-right-radius: 40px;
-	border-bottom-right-radius: 40px;
-
-	
-}
-
-#filtres ul {
-
+ul .filtres{
 	list-style-type: none;
-	display: flex;
-	justify-content:left;
-	margin: 0px;
-	padding: 0px;
+	display: inline;
 }
-#filtres li{
-	padding: 20px;
+
+ul .filtremenu{
+	list-style-type: none;
+	display: inline;
 }
-*/
+
+.filtremenu{
+	padding-left:0px;
+	margin-left:0px;
+}
+
+
+.filtres{
+	padding-left: 40px;
+	border: 2px solid #f2f2f2;
+	border-radius: 15px;
+	padding-top:8px;
+	padding-bottom:8px;
+	padding-right: 10px;
+	font-size: 0.9em;
+	margin-left:10px;
+	font-family: ralewayregular;
+}
 
 .finconteneur-recherche{
 	position: relative;
