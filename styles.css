@@ -52,10 +52,19 @@ nav li{
 /*block de recherche*/
 
 #conteneur_recherche{
-position: relative;
-height: 200px;
+	position: relative;
+	height: 200px;
 }
 
+
+#iconelocal{
+	position: absolute;
+	top: 18px;
+	font-size: 1.1em;
+	text-align: center;
+	vertical-align: middle;
+
+}
 
 #formrecherche{
 	position: absolute;
@@ -64,11 +73,13 @@ height: 200px;
 	font-size: 0.8em;
 	font-weight: bold;
 	height: 31px;
+	left:25px;
+
 }
 
 #boutonrecherche{
 	position: absolute;
-	left:137px;
+	left:167px;
 	top:0px;
 	background-color: #0065fc;
 	color: white;
@@ -86,7 +97,7 @@ height: 200px;
 	position: relative;
 	top:70px;
 	left:0px;
-	background-color: yellow;	
+
 }
 
 
@@ -103,6 +114,7 @@ ul .filtremenu{
 .filtremenu{
 	padding-left:0px;
 	margin-left:0px;
+	left:0px;
 }
 
 
@@ -118,10 +130,37 @@ ul .filtremenu{
 	font-family: ralewayregular;
 }
 
-.finconteneur-recherche{
+#blocinformation{
 	position: relative;
-	top:70px;
+	display: flex;
+	top:90px;
+	left:0px;
+		
+
 }
+
+#inconeinfo{
+	position: absolute;
+	text-align: center;
+	vertical-align: middle;
+
+	/*je n'arrive pas a modifier la taille de l'icone
+	j'ai essaye font-size en html et css!!!!!*/
+	
+}
+
+#blocinformation_el2{
+	position: absolute;
+	margin-top:0;
+	margin-bottom:0;
+	left:25px;
+	top:-10px;
+	
+	
+
+}
+
+
 /*Hebergements à Marseille*/
 
 #conteneur_hebergements{
