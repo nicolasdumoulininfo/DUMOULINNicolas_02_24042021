@@ -63,6 +63,7 @@ nav li{
 	font-size: 1.1em;
 	text-align: center;
 	vertical-align: middle;
+	background-color:gray;
 
 }
 
@@ -155,9 +156,6 @@ ul .filtremenu{
 	margin-bottom:0;
 	left:25px;
 	top:-10px;
-	
-	
-
 }
 
 
@@ -165,7 +163,60 @@ ul .filtremenu{
 
 #conteneur_hebergements{
 	position: relative;
+	display: flex;
+	background-color:yellow;
+	justify-content: space-between;
+	flex-direction: row;
+	
 }
+		#hebergements{
+		display: flex;
+		justify-content:space-around;
+		flex-wrap:wrap;
+		height: 800px;
+		width: 70%;
+		background-color: #b1a9a9;
+		}
+
+			.blocphototohebergement{
+			background-color: white;
+			border: white solid 2px;
+			border-radius:10px;
+			height: 200px;
+			width: 250px;
+			margin:5px 5px 5px 5px;
+			}
+
+				#imagehebergement1{
+				background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+				height:65%;
+				width:95%;
+				margin:5px 5px 5px 5px;
+				}
+
+				#imagehebergement2{
+					background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+					height:65%;
+					width:95%;
+					margin:5px 5px 5px 5px;
+					}
+
+				.descriptionphoto{
+				font-size: 0.8em;
+				font-weight: bold;
+				}	
+
+				.prix{
+				font-weight: bold;
+				font-size: 1em;
+				}
+
+
+#lliseretlespluspopulaires{
+	background-color: gray;
+}
+
+
 
 /*activites à Marseille*/
 
