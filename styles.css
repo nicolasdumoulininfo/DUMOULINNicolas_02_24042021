@@ -171,7 +171,7 @@ ul .filtremenu{
 }
 		#hebergements{
 		display: flex;
-		justify-content:space-around;
+		justify-content:flex-start;
 		flex-wrap:wrap;
 		height: 800px;
 		width: 70%;
@@ -188,18 +188,51 @@ ul .filtremenu{
 			}
 
 				#imagehebergement1{
-				background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+				background-image:url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+				background-size: contain;
 				height:65%;
 				width:95%;
 				margin:5px 5px 5px 5px;
 				}
 
 				#imagehebergement2{
-					background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-					height:65%;
-					width:95%;
-					margin:5px 5px 5px 5px;
-					}
+				background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+				background-size: contain;
+				height:65%;
+				width:95%;
+				margin:5px 5px 5px 5px;
+				}
+
+				#imagehebergement3{
+				background-image:url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+				background-size: contain;
+				height:65%;
+				width:95%;
+				margin:5px 5px 5px 5px;
+				}
+				
+				#imagehebergement4{
+				background-image:url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+				background-size: contain;
+				height:65%;
+				width:95%;
+				margin:5px 5px 5px 5px;
+				}
+
+				#imagehebergement5{
+				background-image:url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+				background-size: contain;
+				height:65%;
+				width:95%;
+				margin:5px 5px 5px 5px;
+				}	
+				#imagehebergement6{
+				background-image:url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+				background-size:contain;
+				height:65%;
+				width:95%;
+				margin:5px 5px 5px 5px;
+				}
 
 				.descriptionphoto{
 				font-size: 0.8em;
