@@ -59,11 +59,13 @@ nav li{
 
 #iconelocal{
 	position: absolute;
-	top: 18px;
+	top: 11px;
 	font-size: 1.1em;
 	text-align: center;
 	vertical-align: middle;
-	background-color:gray;
+	background-color: #f2f2f2;
+	padding:8px 20px 8px 8px;
+	border-radius:0 50% 50% 0;
 
 }
 
@@ -74,18 +76,24 @@ nav li{
 	font-size: 0.8em;
 	font-weight: bold;
 	height: 31px;
-	left:25px;
+	left:35px;
+	padding-left: 15px;
+	padding-right:30px;
+	border-top: 1px solid #f2f2f2;
+	border-bottom: 1px solid #f2f2f2;
+	border-left:0px;
+	
 
 }
 
 #boutonrecherche{
 	position: absolute;
-	left:167px;
+	left:200px;
 	top:0px;
 	background-color: #0065fc;
 	color: white;
-	padding-right:12px;
-	padding-left:12px;
+	padding-right:20px;
+	padding-left:20px;
 	padding-top: 12px;
 	padding-bottom:12px;
 	width: 75px;
@@ -98,9 +106,21 @@ nav li{
 	position: relative;
 	top:70px;
 	left:0px;
+	
 
 }
 
+span .cerclebleu{
+	margin-right:25px;
+	margin-left:0px
+}
+
+.cerclebleu{
+	background-color:#deebff;
+	border-radius: 50%;
+	padding:12px;
+	color:#0065FC;
+}
 
 ul .filtres{
 	list-style-type: none;
@@ -120,14 +140,14 @@ ul .filtremenu{
 
 
 .filtres{
-	padding-left: 40px;
+	
 	border: 2px solid #f2f2f2;
-	border-radius: 15px;
+	border-radius: 18px;
 	padding-top:8px;
 	padding-bottom:8px;
-	padding-right: 10px;
+	padding-right: 20px;
 	font-size: 0.9em;
-	margin-left:10px;
+	margin-left:20px;
 	font-family: ralewayregular;
 }
 
@@ -140,13 +160,19 @@ ul .filtremenu{
 
 }
 
-#inconeinfo{
+/*#inconeinfo{
 	position: absolute;
 	text-align: center;
 	vertical-align: middle;
 
 	/*je n'arrive pas a modifier la taille de l'icone
 	j'ai essaye font-size en html et css!!!!!*/
+	
+
+
+span .cercleinfo{
+	color:#0065FC;
+	font-size: 0.8em;
 	
 }
 
@@ -173,7 +199,6 @@ ul .filtremenu{
 		display: flex;
 		justify-content:flex-start;
 		flex-wrap:wrap;
-		height: 800px;
 		width: 70%;
 		background-color: #b1a9a9;
 		}
@@ -184,7 +209,7 @@ ul .filtremenu{
 			border-radius:10px;
 			height: 200px;
 			width: 250px;
-			margin:5px 5px 5px 5px;
+			margin:5px 20px 20px 5px;
 			}
 
 				#imagehebergement1{
@@ -213,7 +238,8 @@ ul .filtremenu{
 				
 				#imagehebergement4{
 				background-image:url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-				background-size: contain;
+				background-size: cover;
+				background-position: center;
 				height:65%;
 				width:95%;
 				margin:5px 5px 5px 5px;
@@ -228,7 +254,8 @@ ul .filtremenu{
 				}	
 				#imagehebergement6{
 				background-image:url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-				background-size:contain;
+				background-size:cover;
+				background-position: center;
 				height:65%;
 				width:95%;
 				margin:5px 5px 5px 5px;
