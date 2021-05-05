@@ -198,7 +198,6 @@ span .cercleinfo{
 	display: flex;
 	background-color:yellow;
 	justify-content: space-between;
-	
 	flex-direction: row;
 	
 }
@@ -207,6 +206,7 @@ span .cercleinfo{
 		flex-wrap:wrap;
 		width: auto;
 		background-color: #b1a9a9;
+		margin-right:20px;
 		}
 
 			.blocphototohebergement{
@@ -292,7 +292,8 @@ span .cercleinfo{
 					}
 #liseretlespluspopulaires{
 	background-color: gray;
-	width: 60%;
+	width: 50%;
+	margin-left:20px;
 	
 	
 }
@@ -309,7 +310,29 @@ aside h2{
 
 aside .graph{
 	padding-top:15px;
+	padding-right:5px;
 }
+
+.blocphototopopullaire{
+	background-color: white;
+	border: white solid 2px;
+	border-radius:10px;
+	height: 150px;
+	width: 360px;
+	margin:5px 20px 20px 20px;
+
+}
+
+	.imagepopulaire1{
+		background-image:url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:95%;
+		width:45%;
+		margin:5px 5px 5px 5px;
+
+	}
+
 
 /*activites à Marseille*/
 
