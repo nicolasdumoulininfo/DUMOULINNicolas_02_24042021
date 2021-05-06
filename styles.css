@@ -20,8 +20,16 @@ h2{
 	font-family:ralewayregular;
 }
 
+
+
 article h2{
-	padding-left: 20px;;
+	padding-left: 20px;
+	padding-top: 20px;
+}
+
+aside h2{
+	padding-left: 20px;
+	padding-top: 20px;
 }
 p{
 	font-family:ralewayregular;
@@ -166,16 +174,6 @@ ul .filtremenu{
 
 }
 
-/*#inconeinfo{
-	position: absolute;
-	text-align: center;
-	vertical-align: middle;
-
-	/*je n'arrive pas a modifier la taille de l'icone
-	j'ai essaye font-size en html et css!!!!!*/
-	
-
-
 span .cercleinfo{
 	color:#0065FC;
 	font-size: 0.8em;
@@ -215,7 +213,7 @@ span .cercleinfo{
 			border-radius:10px;
 			height: 220px;
 			width: 250px;
-			margin:5px 20px 20px 20px;
+			margin:5px 10px 20px 20px;
 			}
 
 				#imagehebergement1{
@@ -290,11 +288,15 @@ span .cercleinfo{
 					font-size: 0.7em;
 					color:#f2f2f2;
 					}
+
+
+
+/* Bloc les plus populaire*/
+
 #liseretlespluspopulaires{
 	background-color: gray;
-	width: 50%;
+	width: 40%;
 	margin-left:20px;
-	
 	
 }
 
@@ -309,8 +311,12 @@ aside h2{
 }
 
 aside .graph{
-	padding-top:15px;
-	padding-right:5px;
+	padding-top:35px;
+	padding-right:20px;
+}
+
+.bloctextpopulaire{
+	margin-top: 5px;
 }
 
 .blocphototopopullaire{
@@ -318,21 +324,38 @@ aside .graph{
 	border: white solid 2px;
 	border-radius:10px;
 	height: 150px;
-	width: 360px;
+	width: 340px;
 	margin:5px 20px 20px 20px;
+	display: flex;
 
 }
 
-	.imagepopulaire1{
-		background-image:url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+
+	.imagepopulaire{
 		background-size: cover;
 		background-position: center;
 		height:95%;
 		width:45%;
 		margin:5px 5px 5px 5px;
+		border-radius:10px 0 0 10px;
 
-	}
+		}
 
+	.imagepopulaire1{
+		background-image:url("images/hebergements/4_small/emile-guillemot-Bj_rcSC5XfE-unsplash.jpg");
+		}
+		
+	.imagepopulaire2{
+		background-image:url("images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg");
+		}
+
+	.imagepopulaire3{
+		background-image:url("images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg");
+		}
+
+		span .etoilepop{
+			padding-top: 45px;
+		}
 
 /*activites à Marseille*/
 
