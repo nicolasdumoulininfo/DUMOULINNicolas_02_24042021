@@ -359,10 +359,110 @@ aside .graph{
 
 /*activites à Marseille*/
 
-#conteneur_activites{
+#section_conteneur_activites{
 	position: relative;
+	height: 500px;
+	width: 100%;
 }
 
+#conteneur_bloc_activite_marseille{
+	display: flex;
+	height: 500px;
+	width: 100%;
+	align-content: space-between;
+	
+
+}
+
+	.bloc_activite{
+		background-color:orange;
+		height:70%;
+		width:100%;
+		margin-left:20px;
+	
+	}
+
+	.bloc2_1_activite{
+		background-color: white;
+		width:100%;
+	}
+
+	.bloc2_2_activite{
+		background-color: white;
+		width:100%;
+	}
+
+	.bloc4_1_activite{
+		background-color: white;
+		height:50%;
+		width:100%;
+	}
+
+	.bloc4_2_activite{
+		background-color: white;
+		height:45%;
+		width:100%;
+	}
+	.bloctextactivite{
+		padding-top: 5px;
+		padding-bottom: 5px;
+		padding-left: 10px;
+		font-size: ;
+	}
+
+	.spebloc_activite2et4{
+		justify-content:space-evenly;
+	}
+	.imageactivite1{
+		background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:85%;
+		border-radius:0 10px 10px 0;
+
+	}
+
+	.imageactivite2_1{
+		background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:180px;
+		border-radius:10px 10px 0 0;
+	}
+	.imageactivite2_2{
+		background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:75px;
+		border-radius:10px 10px 0 0;
+	}
+
+	.imageactivite3{
+		background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:85%;
+		border-radius:10px 10px 0 0;
+	}
+
+	.imageactivite4_1{
+		background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:85%;
+		width:100%;
+		border-radius:10px 10px 0 0;
+	}
+
+	.imageactivite4_2{
+		background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+		background-size: cover;
+		background-position: center;
+		height:85%;
+		width:100%;
+		margin:5px 5px 5px 5px;
+		border-radius:10px 10px 0 0;
+	}
 
 /*footer*/
 
