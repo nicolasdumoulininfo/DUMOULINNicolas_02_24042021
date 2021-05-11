@@ -104,7 +104,7 @@ a:link{
 	vertical-align: middle;
 	background-color: #f2f2f2;
 	padding:8px 20px 8px 8px;
-	border-radius:0 50% 50% 0;
+	border-radius:50%;
 
 }
 
@@ -151,7 +151,10 @@ a:link{
 
 span .cerclebleu{
 	margin-right:25px;
-	margin-left:0px
+	margin-left:0px;
+	display: inline-block;
+	width: 13px;
+	height: 13px;
 }
 
 .cerclebleu{
@@ -160,6 +163,8 @@ span .cerclebleu{
 	padding:12px;
 	color:#0065FC;
 }
+
+
 ul{
 	padding-inline-start:0px;
 }
@@ -205,6 +210,9 @@ ul .filtremenu{
 span .cercleinfo{
 	color:#0065FC;
 	font-size: 0.8em;
+	border:2px solid#f2f2f2;
+	border-radius: 50%;
+	padding:5px 10px;
 	
 }
 
@@ -212,8 +220,8 @@ span .cercleinfo{
 	position: absolute;
 	margin-top:0;
 	margin-bottom:0;
-	left:25px;
-	top:-10px;
+	left:35px;
+	top:-5px;
 }
 
 
@@ -253,10 +261,13 @@ article{
 			box-shadow: 3px 3px 3px #b6b5b5;
 			border-radius:10px;
 			height: 225px;
-			width: 285px;
-			margin:5px 10px 20px 20px;
+			width: 292px;
+			margin:5px 6px 20px 20px;
+			
 			}
-
+			.desctexte{
+				margin:10px;
+			}
 				#imagehebergement1{
 				background-image:url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
 				background-size: cover;
@@ -408,6 +419,10 @@ aside .graph{
 			padding-top: 45px;
 		}
 
+		span .speetoilepopulairebloc2 {
+			padding-top: 30px;
+		}
+
 /*activites à Marseille*/
 
 #section_conteneur_activites{
@@ -420,7 +435,7 @@ aside .graph{
 	display: flex;
 	height: 500px;
 	width: 100%;
-	align-content: space-between;
+	align-content: space-around;
 	margin-left:20px;
 	
 
@@ -429,7 +444,7 @@ aside .graph{
 	.bloc_activite{
 		background-color:white;
 		height:70%;
-		width:100%;
+		/* width:100%; */
 		margin-left:20px;
 		box-shadow: 3px 3px 3px #b6b5b5;
 		border-radius:10px 10px 10px 10px;
@@ -471,11 +486,11 @@ aside .graph{
 	}
 	.imageactivite1{
 		background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-		background-size: cover;
+		background-size:auto;
 		background-position: center;
 		height:85%;
 		width: 300px;
-		border-radius:0 10px 10px 0;
+		border-radius:0 10px 0 0;
 		
 
 	}
@@ -511,7 +526,7 @@ aside .graph{
 		background-size: cover;
 		background-position: center;
 		height:85%;
-		width: 300px;
+		/* width: 290px; */
 		border-radius:10px 10px 0 0;
 	}
 
@@ -520,7 +535,7 @@ aside .graph{
 		background-size: cover;
 		background-position: center;
 		height:85%;
-		width: 300px;
+		width: 290px;
 		margin:5px 5px 5px 5px;
 		border-radius:10px 10px 0 0;
 	}
