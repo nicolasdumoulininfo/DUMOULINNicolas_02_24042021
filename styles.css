@@ -104,20 +104,20 @@ a:link{
 	vertical-align: middle;
 	background-color: #f2f2f2;
 	padding:8px 20px 8px 8px;
-	border-radius:50%;
+	border-radius:25% 0 25% 25%;
 
 }
 
 #formrecherche{
 	position: absolute;
-	top:11px;
+	top:13px;
 	font-family:ralewayregular;
 	font-size: 0.8em;
 	font-weight: bold;
 	height: 31px;
 	left:35px;
 	padding-left: 15px;
-	padding-right:30px;
+	padding-right:14px;
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	border-left:0px;
@@ -131,11 +131,13 @@ a:link{
 	top:0px;
 	background-color: #0065fc;
 	color: white;
-	padding-right:20px;
+	padding-right:10px;
 	padding-left:20px;
-	padding-top: 12px;
-	padding-bottom:12px;
+	padding-top: 10px;
+	padding-bottom:10px;
 	width: 75px;
+	/*font-family: raleway;*/
+	font-size: 0.8em;
 	border-bottom-right-radius: 15px;
 	border-top-right-radius: 15px;
 }
@@ -183,6 +185,8 @@ ul .filtremenu{
 .filtremenu{
 	padding-left:0px;
 	margin-left:0px;
+	font-weight: bold;
+	font-family: ralewayregular;
 	
 }
 
@@ -196,6 +200,7 @@ ul .filtremenu{
 	font-size: 0.9em;
 	margin-left:20px;
 	font-family: ralewayregular;
+	font-weight: bold;
 }
 
 #blocinformation{
@@ -324,6 +329,7 @@ article{
 				.descriptionphoto{
 				font-size: 0.8em;
 				font-weight: bold;
+				font-family: ralewayregular;
 				}	
 
 				.prix{
@@ -445,7 +451,7 @@ aside .graph{
 		background-color:white;
 		height:70%;
 		/* width:100%; */
-		margin-left:20px;
+		margin-left:40px;
 		box-shadow: 3px 3px 3px #b6b5b5;
 		border-radius:10px 10px 10px 10px;
 	
@@ -478,12 +484,16 @@ aside .graph{
 		padding-top: 5px;
 		padding-bottom: 5px;
 		padding-left: 10px;
+		font-family: ralewayregular;
+		font-weight: bold;
 	
 	}
 
 	.spebloc_activite2et4{
 		justify-content:space-evenly;
 	}
+
+		/*image Vieux Port*/
 	.imageactivite1{
 		background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 		background-size:auto;
@@ -494,7 +504,7 @@ aside .graph{
 		
 
 	}
-
+	/*image Fort de Pomègues*/
 	.imageactivite2_1{
 		background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 		background-size: cover;
@@ -503,6 +513,8 @@ aside .graph{
 		width: 300px;
 		border-radius:10px 10px 0 0;
 	}
+
+		/*image ile du Frioul*/
 	.imageactivite2_2{
 		background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
 		background-size: cover;
@@ -511,7 +523,7 @@ aside .graph{
 		width: 300px;
 		border-radius:10px 10px 0 0;
 	}
-
+		/*image parc National des calanques*/
 	.imageactivite3{
 		background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 		background-size: cover;
@@ -521,15 +533,18 @@ aside .graph{
 		border-radius:10px 10px 0 0;
 	}
 
+	/*image notre dame de la garde*/
+
 	.imageactivite4_1{
 		background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 		background-size: cover;
 		background-position: center;
-		height:85%;
+		height:80%;
 		/* width: 290px; */
 		border-radius:10px 10px 0 0;
 	}
-
+	
+	/*image parc Longchamp*/
 	.imageactivite4_2{
 		background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 		background-size: cover;
