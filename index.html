@@ -4,8 +4,9 @@
 <head>
 		<title>Reservia</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" type="text/css" href="styles.css"/>
+		<link rel="stylesheet" media="screen and (min-width:992px)" type="text/css" href="styles.css"/>
 		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
+		<link rel="stylesheet" media="screen and (max-width:768px)" href="resolutionTelephone.css"/>
 		
 		<script src="https://kit.fontawesome.com/41f15b7b40.js" crossorigin="anonymous"></script>
 </head>
@@ -14,15 +15,23 @@
 <!-- Menu de navigation et logo-->
 <header>
 	
-	<img class="logo" src="images/logo/Reservia@3x.png" alt="logo du site web">
+	<div class="menu">
+		<img class="logo" src="images/logo/Reservia@3x.png" alt="logo du site web">
 		
-	<nav>
+		<nav>
+		<!--
 		<ul>
-			<li><a href="#conteneur_hebergements">Hébergements</li></a>
-			<li><a href="#section_conteneur_activites">Activités</li></a>
-			<li><a href="#">S'inscrire</li></a>
+			<li id="menuhebregement"><a href="#conteneur_hebergements">Hébergements</li></a>
+			<li id ="menuactivite"><a href="#section_conteneur_activites">Activités</li></a>
+			<li id="menusinscrire"><a href="#">S'inscrire</li></a>
 		</ul>
-	</nav>
+	-->		<div class="titremotsmenu">
+				<div class="motmenu"><a href="#conteneur_hebergements">Hébergements</a></div>
+				<div class="motmenu"><a href="#section_conteneur_activites">Activités</a></div>
+				<div class="motmenu"><a href="#">S'inscrire</a></div>
+			</div>
+		</nav>
+	</div>
 	<h1>Trouver votre hébergement pour des vacances de rêve<h1>
 	<p>En plein centre ville ou en pleine nature</p>
 </header>

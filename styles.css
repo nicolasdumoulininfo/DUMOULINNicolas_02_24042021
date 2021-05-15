@@ -46,6 +46,26 @@ head {position: relative;}
 	width: auto;
 }
 
+.menu{
+	display: flex;
+	justify-content: space-between;
+	align-content: center;
+	margin-bottom: 30px;
+	margin-top:20px;
+	
+}
+
+.titremotsmenu{
+	display: flex;
+	justify-content: space-around;
+	align-content: center;
+	margin:20px;
+}
+
+.motmenu{
+	padding-left:60px;
+}
+/*
 nav ul{
 	list-style-type: none;
 	display: flex;
@@ -60,7 +80,7 @@ nav li{
 	text-decoration: none;
 	font-size: 0.9em;	
 }
-
+*/
 a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
