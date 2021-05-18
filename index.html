@@ -4,7 +4,7 @@
 <head>
 		<title>Reservia</title>
 		<meta charset="utf-8">
-		<link rel="stylesheet" media="screen and (min-width:992px)" type="text/css" href="styles.css"/>
+		<link rel="stylesheet" media="screen and (min-width:769px)" type="text/css" href="styles.css"/>
 		<link rel="stylesheet" type="text/css" href="fontawesome/css/all.css"/>
 		<link rel="stylesheet" media="screen and (max-width:768px)" href="resolutionTelephone.css"/>
 		
@@ -12,12 +12,17 @@
 </head>
 
 
-<!-- Menu de navigation et logo-->
+
+
+<body>
+
+	<!-- Menu de navigation et logo-->
 <header>
 	
 	<div class="menu">
-		<img class="logo" src="images/logo/Reservia@3x.png" alt="logo du site web">
-		
+		<div>
+			<img class="logo" src="images/logo/Reservia@3x.png" alt="logo du site web">
+		</div>
 		<nav>
 		<!--
 		<ul>
@@ -26,8 +31,10 @@
 			<li id="menusinscrire"><a href="#">S'inscrire</li></a>
 		</ul>
 	-->		<div class="titremotsmenu">
-				<div class="motmenu"><a href="#conteneur_hebergements">Hébergements</a></div>
-				<div class="motmenu"><a href="#section_conteneur_activites">Activités</a></div>
+				<div class="sousMenu">
+					<div class="motmenu"><a href="#conteneur_hebergements">Hébergements</a></div>
+					<div class="motmenu"><a href="#section_conteneur_activites">Activités</a></div>
+				</div>
 				<div class="motmenu"><a href="#">S'inscrire</a></div>
 			</div>
 		</nav>
@@ -36,8 +43,6 @@
 	<p>En plein centre ville ou en pleine nature</p>
 </header>
 
-
-<body>
 		<!-- block de recherche-->
 		<section>
 			<div id="conteneur_recherche">
@@ -192,7 +197,6 @@
 						</div>
 				</article>
 
-
 				<aside id="liseretlespluspopulaires">
 					<div id="titre_populaire">	
 						<div>
@@ -328,29 +332,36 @@
 					</div>
 
 		</section>
-</body>
 
-<footer>
-		<div class="bloc_footer">
-			<h2>Nos hébergements</h2>
-			<p>Fontionnement du site</p>
-			<p>Conditions générales de vente</p>
-			<p>Données et confidentialité</p>
-		</div>
+	<footer>
+			<div class="bloc_footer">
+				<h2>Nos hébergements</h2>
+				<p>Fontionnement du site</p>
+				<p>Conditions générales de vente</p>
+				<p>Données et confidentialité</p>
+			</div>
+	
+			<div class="bloc_footer">
+				<h2>Nos hébérgements</h2>
+				<p>Charte qualité</p>
+				<p>Soumettre votre hôtel</p>
+			</div>
+	
+			<div class="bloc_footer">
+				<h2>Assistance</h2>
+				<p>Centre d'aide</p>
+				<p>Nous contacter</p>
+			</div>
+	
+	</footer>
+	
 
-		<div class="bloc_footer">
-			<h2>Nos hébérgements</h2>
-			<p>Charte qualité</p>
-			<p>Soumettre votre hôtel</p>
-		</div>
 
-		<div class="bloc_footer">
-			<h2>Assistance</h2>
-			<p>Centre d'aide</p>
-			<p>Nous contacter</p>
-		</div>
 
-</footer>
+
+
+	</body>
+
 
 
 </html>

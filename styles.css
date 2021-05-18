@@ -62,6 +62,12 @@ head {position: relative;}
 	margin:20px;
 }
 
+.sousMenu {
+	display:flex;
+	flex-direction: row-reverse;
+	justify-content: space-between;
+}
+
 .motmenu{
 	padding-left:60px;
 }
