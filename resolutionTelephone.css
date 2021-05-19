@@ -52,29 +52,33 @@ a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
 	text-decoration: none;
+	border-bottom: solid #0065fc 5px;
+	text-decoration:#0065fc;
+	
 }
 
 a:visited{
-	color:#0065fc;
 	text-decoration: none;
+	color: #0065fc;
+	
 	
 }
 
 a:active{
-	color:black;
+
 	text-decoration: none;
-	
+	color: #0065fc
 }
 
 a:focus{
-	color:black;
+	color: #0065fc
 	text-decoration: none;
 
 }
 
 a:link{
 	text-decoration: none;
-}
+	color:#0065fc}
 
 	.menu{
 		display: flex;
@@ -83,24 +87,58 @@ a:link{
 		
 		
 	}
-	
+	nav{
+		width: 100%;
+	}
+	.divlogo{
+
+		position: absolute;
+
+	}
 	.titremotsmenu{
 		display: flex;
-		justify-content: space-around;
 		margin-top: 15px;
+		justify-content: space-around;
 		flex-direction: column-reverse;	
 		width: 100%;
 		flex-wrap: wrap-reverse;
 	}
 
+
 	.sousMenu {
 		display:flex;
 		flex-direction: row;
-		justify-content: flex-start;
+		width: 100%;
+		justify-content:space-around;
+		padding-top: 20px;
+		padding-bottom: 15px;
+	}
+	.surlignemot:hover{
+		border-bottom: #0065fc solid;
+		color:#0065fc;
+
+	}
+	.motmenu{
+		padding-left:0;
+		padding-right:0;
+		width: 100%;
+		padding-bottom: 15px;
+		
+		
+	}
+	.surlignemot{
+	border-bottom: solid #f2f2f2;
+	justify-content:space-around;
+	text-align: center;
+	color:#0065fc;
+	
 	}
 
-	.motmenu{
-		padding-right:2em;
+	.spe-sinscrire{
+		text-align: right;
+		padding-right: 1em;
+		font-weight: bold;
+		font-size: 1.1em;
 	}
 
 	/*block de recherche*/
@@ -147,6 +185,7 @@ section{
 }
 
 #boutonrecherche{
+	
 	position: absolute;
 	left:200px;
 	top:0px;
