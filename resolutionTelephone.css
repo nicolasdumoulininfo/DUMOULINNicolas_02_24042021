@@ -154,7 +154,6 @@ section{
 	
 }
 
-
 #iconelocal{
 	position: absolute;
 	top: 11px;
@@ -184,22 +183,22 @@ section{
 
 }
 
-#boutonrecherche{
+#iconerecherche{
 	
 	position: absolute;
+	top:13px;
 	left:200px;
-	top:0px;
 	background-color: #0065fc;
 	color: white;
-	padding-right:10px;
-	padding-left:20px;
+	padding-right:5px;
+	padding-left:5px;
 	padding-top: 10px;
 	padding-bottom:10px;
-	width: 75px;
+	width: 30px;
 	/*font-family: raleway;*/
 	font-size: 0.8em;
-	border-bottom-right-radius: 15px;
-	border-top-right-radius: 15px;
+	border-radius: 10px;
+	text-align: center;
 }
 
 
