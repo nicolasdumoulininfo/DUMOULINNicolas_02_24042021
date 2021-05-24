@@ -33,7 +33,7 @@ aside h2{
 }
 p{
 	font-family:ralewayregular;
-	font-size: 0.7em;
+	font-size: 0.8em;
 }
 
 
@@ -141,6 +141,11 @@ a:link{
 		font-size: 1.1em;
 	}
 
+#enpleincentreville{
+	font-style:italic;
+	font-weight:lighter;
+}
+
 	/*block de recherche*/
 
 section{
@@ -149,13 +154,22 @@ section{
 }
 	
 #conteneur_recherche{
-	position: relative;
-	height: 200px;
+	display: flex;
+	height: 250px;
+	flex-direction: column;
 	
+}
+#sousconteneur-recherche{
+	margin-top: 20px;
+	display: flex;
+	flex-direction:row;
+	justify-content: center;
+	align-content: center;
+	align-items: center;
 }
 
 #iconelocal{
-	position: absolute;
+	/*position: absolute;*/
 	top: 11px;
 	font-size: 1.1em;
 	text-align: center;
@@ -165,10 +179,13 @@ section{
 	border-radius:25% 0 25% 25%;
 
 }
+#boutonrecherche{
+	display:none;
+}
 
 #formrecherche{
-	position: absolute;
-	top:13px;
+	/*position: absolute;*/
+	
 	font-family:ralewayregular;
 	font-size: 0.8em;
 	font-weight: bold;
@@ -184,16 +201,15 @@ section{
 }
 
 #iconerecherche{
-	
-	position: absolute;
+	/*position: absolute;*/
 	top:13px;
 	left:200px;
 	background-color: #0065fc;
 	color: white;
-	padding-right:5px;
-	padding-left:5px;
-	padding-top: 10px;
-	padding-bottom:10px;
+	padding-right:12px;
+	padding-left:12px;
+	padding-top: 12px;
+	padding-bottom:12px;
 	width: 30px;
 	/*font-family: raleway;*/
 	font-size: 0.8em;
@@ -201,14 +217,40 @@ section{
 	text-align: center;
 }
 
+/* bloque filtre*/
+
+#filtrevstel{
+	display: flex;
+	margin-top: 10px;
+	padding-left:0px;
+	margin-left:0px;
+	font-weight: bold;
+	font-family: ralewayregular;
+}
 
 #blocfiltre{
 	display: flex;
-	position: relative;
-	top:70px;
+	flex-wrap: wrap;
+	flex-direction: row;
+	top:10px;
 	left:0px;
+	width: 100%;
+	margin-top: 10px;
 
 }
+
+
+
+.filtremenu{
+	display: none;
+	padding-left:0px;
+	margin-left:0px;
+	font-weight: bold;
+	font-family: ralewayregular;
+	
+}
+
+
 
 span .cerclebleu{
 	margin-right:25px;
@@ -226,42 +268,16 @@ span .cerclebleu{
 }
 
 
-ul{
-	padding-inline-start:0px;
-}
-
-ul .filtres{
-	list-style-type: none;
-	display: inline;
-	margin: 15px;
-	
-}
-
-ul .filtremenu{
-	list-style-type: none;
-	display: inline;
-	padding-left: 0px;
-}
-
-.filtremenu{
-	padding-left:0px;
-	margin-left:0px;
-	font-weight: bold;
-	font-family: ralewayregular;
-	
-}
-
 .filtres{
-	
+	display:flex;
 	border: 2px solid #f2f2f2;
 	border-radius: 18px;
-	padding-top:8px;
-	padding-bottom:8px;
 	padding-right: 20px;
 	font-size: 0.9em;
-	margin-left:20px;
+	margin-left:5px;
 	font-family: ralewayregular;
 	font-weight: bold;
+	margin-bottom: 8px;
 }
 
 #blocinformation{
@@ -289,7 +305,6 @@ span .cercleinfo{
 	left:35px;
 	top:-5px;
 }
-
 
 
 /*Hebergements à Marseille*/
@@ -327,86 +342,103 @@ article{
 			border: white solid 2px;
 			box-shadow: 3px 3px 3px #b6b5b5;
 			border-radius:10px;
-			height: 147px;
+			height: 160px;
 			width: 334px;
-			margin:5px 6px 20px 20px;
+			margin:15px 30px 30px 30px;
 			
 			}
 			.desctexte{
-				margin:10px;
+				margin:1px;
+				padding:1px;
 			}
 				#imagehebergement1{
-				background-image:url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
-				background-size: cover;
-				background-position: center;
-				height:55%;
-				width:95%;
-				margin:5px 5px 5px 5px;
+					background-image: url("images/hebergements/4_small/marcus-loke-WQJvWU_HZFo-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height: 65%;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					border-radius: 10px 10px 0px 0px;
 				}
 
 				#imagehebergement2{
 				background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
 				background-size: cover;
 				background-position: center;
-				height:55%;
-				width:95%;
-				margin:5px 5px 5px 5px;
+				height: 65%;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				border-radius: 10px 10px 0px 0px;
 				}
 
 				#imagehebergement3{
 				background-image:url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
 				background-size: cover;
 				background-position: center;
-				height:55%;
-				width:95%;
-				margin:5px 5px 5px 5px;
+				height: 65%;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				border-radius: 10px 10px 0px 0px;
 				}
 				
 				#imagehebergement4{
 				background-image:url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
 				background-size: cover;
 				background-position: center;
-				height:55%;
-				width:95%;
-				margin:5px 5px 5px 5px;
+				height: 65%;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				border-radius: 10px 10px 0px 0px;
 				}
 
 				#imagehebergement5{
 				background-image:url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
 				background-size: cover;
 				background-position: center;
-				height:55%;
-				width:95%;
-				margin:5px 5px 5px 5px;
+				height: 65%;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				border-radius: 10px 10px 0px 0px;
 				}	
 				#imagehebergement6{
 				background-image:url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
 				background-size:cover;
 				background-position: center;
-				height:55%;
-				width:95%;
-				margin:5px 5px 5px 5px;
+				height: 65%;
+				width: 100%;
+				margin: 0px 0px 0px 0px;
+				border-radius: 10px 10px 0px 0px;
 				}
 
 				.descriptionphoto{
 				font-size: 0.8em;
 				font-weight: bold;
 				font-family: ralewayregular;
+				margin: 1px;
 				}	
+
+				.espacetextvstel{
+					margin: 1px;
+					padding: 3px 1px 1px 1px;
+				}
 
 				.prix{
 				font-weight: bold;
 				font-size: 1em;
+				
 				}
 
 				span .etoilebleue{
 				font-size: 0.7em;
 				color:#0065FC;
+				padding:0px;
+				
 				}
 
 				span .etoilegrise{
 					font-size: 0.7em;
 					color:#f2f2f2;
+					
 					}
 
 .afficherplus{
@@ -418,15 +450,20 @@ article{
 /* Bloc les plus populaire*/
 
 #liseretlespluspopulaires{
-	display: flex;
+
 	flex-wrap: wrap;
 	background-color:#f2f2f2;
-	width: 30%;
-	margin-left:20px;
+	margin-left:10px;
 	border-radius: 15px 0 0 15px;
 	
+}
+
+
+/*Bloc les plus populaire*/
+#h2populaire{
 	
-	
+width: 100%;
+
 }
 
 #titre_populaire{
@@ -435,14 +472,21 @@ article{
 	border-radius: 15px 15px 0 0;
 	
 }
+.graphpop{
+	display: flex;
+	justify-content: right;
+	width: 100%;
 
+}
 aside h2{
 	padding-left:20px;
+	padding-top: 10px;
+	padding-bottom: 10px
 }
 
 aside .graph{
-	padding-top:35px;
-	padding-right:20px;
+	padding-top:25px;
+	padding-right: 10px;
 }
 
 .bloctextpopulaire{
