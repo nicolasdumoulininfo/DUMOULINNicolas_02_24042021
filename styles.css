@@ -9,6 +9,11 @@
     font-style: normal;
 }
 
+.blocpage{
+	width:98%;
+	margin: auto;
+	
+}
 
 h1{
 	font-size:1.0em;
@@ -46,6 +51,10 @@ head {position: relative;}
 	width: auto;
 }
 
+#enpleincentreville{
+	font-style: italic;
+	font-weight: normal;
+}
 .menu{
 	display: flex;
 	justify-content: space-between;
@@ -68,6 +77,9 @@ head {position: relative;}
 	justify-content: space-between;
 }
 
+.graphpop{
+	
+}
 .motmenu{
 	padding-left:60px;
 }
@@ -133,7 +145,14 @@ a:link{
 	border-radius:25% 0 25% 25%;
 
 }
+#iconerecherche{
+	display: none;
+}
 
+#filtrevstel{
+	display: none;
+
+}
 #formrecherche{
 	position: absolute;
 	top:13px;
@@ -181,15 +200,16 @@ span .cerclebleu{
 	margin-right:25px;
 	margin-left:0px;
 	display: inline-block;
-	width: 13px;
-	height: 13px;
+	width: 1em;
+	height: 1em;
 }
 
 .cerclebleu{
 	background-color:#deebff;
 	border-radius: 50%;
-	padding:12px;
+	padding:15px;
 	color:#0065FC;
+	
 }
 
 
@@ -213,17 +233,17 @@ ul .filtremenu{
 	margin-left:0px;
 	font-weight: bold;
 	font-family: ralewayregular;
-	
+	font-size: 1.2em;
+	padding-right: 20px;
+	padding-top: 10px;
 }
 
 .filtres{
-	
+	display: flex;
 	border: 2px solid #f2f2f2;
 	border-radius: 18px;
-	padding-top:8px;
-	padding-bottom:8px;
 	padding-right: 20px;
-	font-size: 0.9em;
+	font-size: 1.2em;
 	margin-left:20px;
 	font-family: ralewayregular;
 	font-weight: bold;
@@ -292,7 +312,7 @@ article{
 			box-shadow: 3px 3px 3px #b6b5b5;
 			border-radius:10px;
 			height: 225px;
-			width: 292px;
+			width: 280px;
 			margin:5px 6px 20px 20px;
 			
 			}
