@@ -263,7 +263,7 @@ span .cerclebleu{
 
 .cerclebleu{
 	background-color:#deebff;
-	border-radius: 50%;
+	border-radius:50%;
 	padding:12px;
 	color:#0065FC;
 }
@@ -272,7 +272,7 @@ span .cerclebleu{
 .filtres{
 	display:flex;
 	border: 2px solid #f2f2f2;
-	border-radius: 18px;
+	border-radius: 27px ;
 	padding-right: 20px;
 	font-size: 0.9em;
 	margin-left:5px;

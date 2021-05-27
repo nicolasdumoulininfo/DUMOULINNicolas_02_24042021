@@ -9,11 +9,14 @@
     font-style: normal;
 }
 
+/*effet zoompage*/
+
 .blocpage{
 	width:90%;
 	margin: auto;
 	
 }
+
 
 h1{
 	font-size:1.0em;
@@ -24,7 +27,6 @@ h2{
 	font-size:1.0em;
 	font-family:ralewayregular;
 }
-
 
 
 article h2{
@@ -77,28 +79,11 @@ head {position: relative;}
 	justify-content: space-between;
 }
 
-.graphpop{
-	
-}
+
 .motmenu{
 	padding-left:60px;
 }
-/*
-nav ul{
-	list-style-type: none;
-	display: flex;
-	justify-content: flex-end;
-	font-weight: bold;
-	color:#0065FC;
-	text-decoration: none;
-}
 
-nav li{
-	padding-left: 50px;
-	text-decoration: none;
-	font-size: 0.9em;	
-}
-*/
 a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
@@ -125,6 +110,7 @@ a:focus{
 
 a:link{
 	text-decoration: none;
+
 }
 /*block de recherche*/
 
@@ -141,7 +127,7 @@ a:link{
 	text-align: center;
 	vertical-align: middle;
 	background-color: #f2f2f2;
-	padding:8px 20px 8px 8px;
+	padding:8px 15px 8px 8px;
 	border-radius:25% 0 25% 25%;
 
 }
@@ -155,14 +141,14 @@ a:link{
 }
 #formrecherche{
 	position: absolute;
-	top:13px;
+	top:11px;
 	font-family:ralewayregular;
 	font-size: 0.8em;
 	font-weight: bold;
-	height: 31px;
+	height: 33px;
 	left:35px;
 	padding-left: 15px;
-	padding-right:14px;
+	padding-right:15px;
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	border-left:0px;
@@ -172,8 +158,8 @@ a:link{
 
 #boutonrecherche{
 	position: absolute;
-	left:200px;
-	top:0px;
+	left:188px;
+	top:-1px;
 	background-color: #0065fc;
 	color: white;
 	padding-right:10px;
@@ -181,7 +167,6 @@ a:link{
 	padding-top: 10px;
 	padding-bottom:10px;
 	width: 75px;
-	/*font-family: raleway;*/
 	font-size: 0.8em;
 	border-bottom-right-radius: 15px;
 	border-top-right-radius: 15px;
@@ -212,22 +197,6 @@ span .cerclebleu{
 	
 }
 
-
-ul{
-	padding-inline-start:0px;
-}
-
-ul .filtres{
-	list-style-type: none;
-	display: inline;
-}
-
-ul .filtremenu{
-	list-style-type: none;
-	display: inline;
-	padding-left: 0px;
-}
-
 .filtremenu{
 	padding-left:0px;
 	margin-left:0px;
@@ -241,7 +210,7 @@ ul .filtremenu{
 .filtres{
 	display: flex;
 	border: 2px solid #f2f2f2;
-	border-radius: 18px;
+	border-radius: 27px;
 	padding-right: 20px;
 	font-size: 1.2em;
 	margin-left:20px;
@@ -407,7 +376,6 @@ article{
 	margin-left:20px;
 	border-radius: 15px 0 0 15px;
 	
-	
 }
 
 #titre_populaire{
@@ -417,9 +385,6 @@ article{
 	
 }
 
-aside h2{
-	padding-left:20px;
-}
 
 aside .graph{
 	padding-top:35px;
@@ -439,11 +404,8 @@ aside .graph{
 	width: 330px;
 	margin:15px 30px 30px 30px;
 	display: flex;
-	
-	
 
 }
-
 
 	.imagepopulaire{
 		background-size: cover;
@@ -452,7 +414,6 @@ aside .graph{
 		width:45%;
 		margin:5px 5px 5px 5px;
 		border-radius:10px 0 0 10px;
-
 		}
 
 	.imagepopulaire1{
@@ -479,127 +440,150 @@ aside .graph{
 
 #section_conteneur_activites{
 	position: relative;
-	height: 400px;
+	height: 550px;
 	width: 100%;
 }
 
 #conteneur_bloc_activite_marseille{
 	display: flex;
-	height: 500px;
+	height: 420px;
 	width: 100%;
-	align-content: space-around;
-	margin-left:20px;
+	justify-content: space-between;
+	margin-right:30px;
 	
 
 }
 
 	.bloc_activite{
 		background-color:white;
-		height:70%;
-		/* width:100%; */
-		margin-left:40px;
+		height:450px;
+		width: auto;
+		margin-right:30px;
 		box-shadow: 3px 3px 3px #b6b5b5;
 		border-radius:10px 10px 10px 10px;
-	
 	}
+			/*image Vieux Port*/
+			.imageactivite1{
+				background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+				background-size:auto;
+				background-position: center;
+				height:90%;
+				width: 320px;
+				border-radius:0 10px 0 0;
+			}
 
-	.bloc2_1_activite{
-		background-color: white;
-		width:100%;
-		border-radius:10px 10px 10px 10px;
-	}
+			/*image parc National des calanques*/
+			.imageactivite3{
+				background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+				background-size: cover;
+				background-position: center;
+				height:90%;
+				width: 330px;
+				border-radius:10px 10px 0 0;
+			}
 
-	.bloc2_2_activite{
-		background-color: white;
-		width:100%;
-		border-radius:0 10px 10px 0;
-	}
-
-	.bloc4_1_activite{
-		background-color: white;
-		height:50%;
-		width:100%;
-	}
-
-	.bloc4_2_activite{
-		background-color: white;
-		height:45%;
-		width:100%;
-	}
-	.bloctextactivite{
+.bloctextactivite{
 		padding-top: 5px;
 		padding-bottom: 5px;
 		padding-left: 10px;
 		font-family: ralewayregular;
 		font-weight: bold;
+		font-size: 0.9em;
 	
 	}
 
-	.spebloc_activite2et4{
-		justify-content:space-evenly;
+	.speblocactivite2et4{
+		height: 450px;
+		margin-right:30px;
+		justify-content: space-between;
+		display:flex;
+		flex-direction: column;
+	
 	}
 
-		/*image Vieux Port*/
-	.imageactivite1{
-		background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
-		background-size:auto;
-		background-position: center;
-		height:85%;
-		width: 300px;
-		border-radius:0 10px 0 0;
+		.conteneurbloctextactivite{
+			height:10%;
+			margin:0px;
+			padding:0px;
+			width: auto;
+			}
 		
+			.bloc2_1_activite{
+				background-color: white;
+				height:55%;
+				box-shadow: 3px 3px 3px #b6b5b5;
+				border-radius:10px 10px 10px 10px;
+				
+				}
 
-	}
-	/*image Fort de Pomègues*/
-	.imageactivite2_1{
-		background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
-		background-size: cover;
-		background-position: center;
-		height:180px;
-		width: 300px;
-		border-radius:10px 10px 0 0;
-	}
+				/*image Fort de Pomègues*/
+				.imageactivite2_1{
+					background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height:200px;
+					width:auto;
+					border-radius:10px 10px 0 0;
+					}
 
-		/*image ile du Frioul*/
-	.imageactivite2_2{
-		background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
-		background-size: cover;
-		background-position: center;
-		height:75px;
-		width: 300px;
-		border-radius:10px 10px 0 0;
-	}
-		/*image parc National des calanques*/
-	.imageactivite3{
-		background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
-		background-size: cover;
-		background-position: center;
-		height:85%;
-		width: 300px;
-		border-radius:10px 10px 0 0;
-	}
 
-	/*image notre dame de la garde*/
+			.bloc2_2_activite{
+				background-color: white;
+				height:37%;
+				border-radius:10px 10px 10px 10px;
+				box-shadow: 3px 3px 3px #b6b5b5;
+			
+				}
 
-	.imageactivite4_1{
-		background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
-		background-size: cover;
-		background-position: center;
-		height:80%;
-		/* width: 290px; */
-		border-radius:10px 10px 0 0;
-	}
+			/*image ile du Frioul*/
+				.imageactivite2_2{
+					background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+					background-size: cover;
+					height:120px;
+					width:300px;
+					border-radius:10px 10px 0 0;
+
+
+				}
+			.bloc4_1_activite{
+				background-color: white;
+				height:200px;
+				width:300px;
+				box-shadow: 3px 3px 3px #b6b5b5;
+				border-radius:10px 10px 10px 10px;
+			
+				}
+
+				/*image notre dame de la garde*/
+				.imageactivite4_1{
+					background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height:150px;
+					width: auto;
+					border-radius:10px 10px 0 0;
+					
+				}
+
+			.bloc4_2_activite{
+				background-color: white;
+				height:200px;
+				width:300px;
+				box-shadow: 3px 3px 3px #b6b5b5;
+				border-radius:10px 10px 10px 10px;
 	
-	/*image parc Longchamp*/
-	.imageactivite4_2{
-		background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
-		background-size: cover;
-		background-position: center;
-		height:85%;
-		width: 290px;
-		margin:5px 5px 5px 5px;
-		border-radius:10px 10px 0 0;
-	}
+				}
+
+				/*image parc Longchamp*/
+				.imageactivite4_2{
+					background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height:155px;
+					width: auto;
+					border-radius:10px 10px 0 0;
+				}
+
 
 /*footer*/
 
