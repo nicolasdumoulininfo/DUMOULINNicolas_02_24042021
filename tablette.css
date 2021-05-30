@@ -16,7 +16,7 @@ h1{
 }
 
 h2{
-	font-size:1.0em;
+	font-size:1.2em;
 	font-family:ralewayregular;
 }
 
@@ -45,18 +45,22 @@ head {position: relative;}
 .logo{
 	height:40px;
 	width: auto;
- 
 }
 
-}
 a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
 	text-decoration: none;
 	border-bottom: solid #0065fc 5px;
 	text-decoration:#0065fc;
+
 	
 }
+
+.surlignemot:hover{
+    border-bottom: #0065fc solid;
+    color:#0065fc;
+
 
 a:visited{
 	text-decoration: none;
@@ -117,6 +121,7 @@ a:link{
 	.surlignemot:hover{
 		border-bottom: #0065fc solid;
 		color:#0065fc;
+        background-color: rgb(171, 214, 200);
 
 	}
 	.motmenu{
@@ -124,6 +129,8 @@ a:link{
 		padding-right:0;
 		width: 100%;
 		padding-bottom: 15px;
+        font-size: 1.1em;
+        padding-top:1em;
 		
 		
 	}
@@ -197,7 +204,6 @@ section{
 	border-top: 1px solid #f2f2f2;
 	border-bottom: 1px solid #f2f2f2;
 	border-left:0px;
-	border-right:0px;
 	
 
 }
@@ -258,8 +264,8 @@ span .cerclebleu{
 	margin-right:25px;
 	margin-left:0px;
 	display: inline-block;
-	width: 13px;
-	height: 13px;
+	width: 1.1em;
+	height: 1.1em;
 }
 
 .cerclebleu{
@@ -275,11 +281,12 @@ span .cerclebleu{
 	border: 2px solid #f2f2f2;
 	border-radius: 27px ;
 	padding-right: 20px;
-	font-size: 0.9em;
-	margin-left:5px;
+	font-size: 1.1em;
+	margin-left:3em;
 	font-family: ralewayregular;
 	font-weight: bold;
 	margin-bottom: 8px;
+
 }
 
 #blocinformation{
@@ -339,6 +346,7 @@ article h2{
 		flex-wrap:wrap;
 		background-color:white;
 		padding:10px;
+        justify-content: space-evenly;
 	
 		
 		}
@@ -456,6 +464,13 @@ article h2{
 }
 /* Bloc les plus populaire*/
 
+
+#conteneurblocpopulaire{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+}
+
 #liseretlespluspopulaires{
 
 	flex-wrap: wrap;
@@ -466,7 +481,6 @@ article h2{
 }
 
 
-/*Bloc les plus populaire*/
 #h2populaire{
 	
 width: 100%;
@@ -562,16 +576,18 @@ section h2{
 }
 
 #conteneur_bloc_activite_marseille{
-	display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    flex-wrap: wrap;
+    display: flex;
+    align-content: center;
 }
 .bloc_activitevstel{
 	background-color: white;
 	border: white solid 2px;
 	box-shadow: 3px 3px 3px #b6b5b5;
 	border-radius:10px;
-	height: 160px;
-	width: 334px;
+	height: 25em;
+	width: 44em;
 	margin:15px 30px 30px 30px;
 }
 
@@ -586,10 +602,10 @@ section h2{
 
 		/*image Vieux Port*/
 	.imageactivite1{
-		background-image: url("images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
+		background-image: url("images/activites/2_large/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg");
 		background-size:cover;
 		background-position: center;
-		height: 65%;
+		height: 85%;
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
@@ -597,10 +613,10 @@ section h2{
 
 	/*image Fort de Pomègues*/
 	.imageactivite2_1{
-		background-image: url("images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
+		background-image: url("images/activites/2_large/paul-hermann-QFTrLdQIRhI-unsplash.jpg");
 		background-size:cover;
 		background-position: center;
-		height: 65%;
+		height: 85%;
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
@@ -608,10 +624,10 @@ section h2{
 
 		/*image ile du Frioul*/
 	.imageactivite2_2{
-		background-image: url("images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
+		background-image: url("images/activites/2_large/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg");
 		background-size:cover;
 		background-position: center;
-		height: 65%;
+		height: 85%;
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
@@ -619,10 +635,10 @@ section h2{
 	}
 		/*image parc National des calanques*/
 	.imageactivite3{
-		background-image: url("images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
+		background-image: url("images/activites/2_large/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg");
 		background-size:cover;
 		background-position: center;
-		height: 65%;
+		height: 85%;
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
@@ -632,10 +648,10 @@ section h2{
 	/*image notre dame de la garde*/
 
 	.imageactivite4_1{
-		background-image: url("images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg");
+		background-image: url("images/activites/2_large/florian-wehde-xW9e8gdotxI-unsplash.jpg");
 		background-size:cover;
 		background-position: center;
-		height: 65%;
+		height: 85%;
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
@@ -644,10 +660,10 @@ section h2{
 	
 	/*image parc Longchamp*/
 	.imageactivite4_2{
-		background-image: url("images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
+		background-image: url("images/activites/2_large/lena-paulin-wH2-EJoDcV0-unsplash.jpg");
 		background-size:cover;
 		background-position: center;
-		height: 65%;
+		height: 85%;
 		width: 100%;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
@@ -657,10 +673,11 @@ section h2{
 /*footer*/
 
 footer{
-	background-color: #f2f2f2;
-	display: flex;
-	flex-direction: column;
-	width: 100%;
+background-color: #f2f2f2;
+display: flex;
+flex-direction: row;
+width: 100%;
+justify-content: space-evenly;
 
 	
 

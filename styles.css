@@ -17,7 +17,6 @@
 	
 }
 
-
 h1{
 	font-size:1.0em;
 	font-family:ralewayregular;
@@ -90,9 +89,14 @@ a:hover{
 	text-decoration: none;
 }
 
+.effetfiltre :hover{
+	color:#0065fc;
+}
+
 a:visited{
 	color:#0065fc;
 	text-decoration: none;
+	font-weight: bold;
 	
 }
 
@@ -373,6 +377,7 @@ article{
 #liseretlespluspopulaires{
 	background-color:#f2f2f2;
 	width: 30%;
+	min-width: 380px;
 	margin-left:20px;
 	border-radius: 15px 0 0 15px;
 	
