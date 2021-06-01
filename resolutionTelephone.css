@@ -669,3 +669,8 @@ footer{
 		padding-left: 30px;
 		margin: 5px;
 	}
+
+
+	/*media  query specifique format tablette*/
+	@media screen and (min-width:700px) and (max-width:1024px) {
+	
