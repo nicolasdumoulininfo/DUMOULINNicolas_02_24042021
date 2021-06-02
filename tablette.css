@@ -51,8 +51,8 @@ a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
 	text-decoration: none;
-	border-bottom: solid #0065fc 5px;
-	text-decoration:#0065fc;
+	
+	
 
 	
 }
@@ -60,6 +60,7 @@ a:hover{
 .surlignemot:hover{
     border-bottom: #0065fc solid;
     color:#0065fc;
+}
 
 
 a:visited{
@@ -76,20 +77,19 @@ a:active{
 }
 
 a:focus{
-	color: #0065fc
+	color: #0065fc;
 	text-decoration: none;
 
 }
 
 a:link{
 	text-decoration: none;
-	color:#0065fc}
+	color:#0065fc;}
 
-	.menu{
-		display: flex;
+	.menu
+		{display: flex;
 		justify-content: space-between;
 		margin-bottom: 30px;
-		
 		
 	}
 	nav{

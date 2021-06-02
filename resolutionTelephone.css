@@ -38,6 +38,13 @@ p{
 }
 
 
+
+.blocpage{
+	width:90%;
+	margin: auto;
+}
+
+
 /*header*/
 
 head {position: relative;}
@@ -48,13 +55,13 @@ head {position: relative;}
  
 }
 
-}
+
 a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
 	text-decoration: none;
-	border-bottom: solid #0065fc 5px;
-	text-decoration:#0065fc;
+	
+	
 	
 }
 
@@ -72,7 +79,7 @@ a:active{
 }
 
 a:focus{
-	color: #0065fc
+	color: #0065fc;
 	text-decoration: none;
 
 }
@@ -114,6 +121,7 @@ a:link{
 		padding-top: 20px;
 		padding-bottom: 15px;
 	}
+
 	.surlignemot:hover{
 		border-bottom: #0065fc solid;
 		color:#0065fc;
@@ -670,7 +678,3 @@ footer{
 		margin: 5px;
 	}
 
-
-	/*media  query specifique format tablette*/
-	@media screen and (min-width:700px) and (max-width:1024px) {
-	
