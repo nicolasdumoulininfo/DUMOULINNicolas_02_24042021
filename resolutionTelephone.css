@@ -11,8 +11,11 @@
 
 
 h1{
-	font-size:1.0em;
-	font-family:ralewayregular;
+font-size: 1.1em;
+font-family: ralewayregular;
+margin-left: 50px;
+margin-right: 50px;
+width: auto;
 }
 
 h2{
@@ -35,7 +38,7 @@ p{
 
 
 .blocpage{
-	width:90%;
+	width:99%;
 	margin: auto;
 }
 
@@ -176,6 +179,7 @@ a:link{
 #enpleincentreville{
 	
 	font-weight:lighter;
+	font-size: 0.7em;
 }
 
 	/*block de recherche*/
@@ -208,7 +212,7 @@ section{
 	vertical-align: middle;
 	background-color: #f2f2f2;
 	padding:8px 20px 8px 8px;
-	border-radius:25% 0 25% 25%;
+	border-radius:25% 0 0% 25%;
 
 }
 #boutonrecherche{
@@ -221,7 +225,7 @@ section{
 	font-family:ralewayregular;
 	font-size: 0.8em;
 	font-weight: bold;
-	height: 31px;
+	height: 32px;
 	left:35px;
 	padding-left: 15px;
 	padding-right:14px;
@@ -255,10 +259,11 @@ section{
 #filtrevstel{
 	display: flex;
 	margin-top: 10px;
-	padding-left:0px;
+	padding-left:10px;
 	margin-left:0px;
 	font-weight: bold;
 	font-family: ralewayregular;
+
 }
 
 #blocfiltre{
@@ -313,6 +318,16 @@ span .cerclebleu{
 	margin-bottom: 8px;
 }
 
+
+.fa, .fas {
+    font-weight: 900;
+    font-size: 15px;
+}
+
+span .fa-money-bill-wave{
+	font-stretch:extra-condensed;
+}
+
 #blocinformation{
 	position: absolute;
 	display: flex;
@@ -320,6 +335,7 @@ span .cerclebleu{
 	left:0px;
 	width: 290px;
 	font-size: 0.9em;
+	margin-left: 28px;
 }
 
 span .cercleinfo{
@@ -484,19 +500,24 @@ article h2{
 	margin-left:0px;
 	margin-top:0px;
 	padding-bottom: 10px;
+	font-size: 0.9em;
+	font-weight: bold;
+	padding-left: 25px;
 
 }
+
 /* Bloc les plus populaire*/
 
 #liseretlespluspopulaires{
 background-color: #f2f2f2;
 margin-left: 0;
+margin-right: 0;
 margin-top: 20px;
 justify-content: space-evenly;
 display: flex;
 flex-direction: column;
-width: 340px;
-border-radius: 15px;
+width: auto;
+
 }
 
 
@@ -598,7 +619,7 @@ aside .graph{
 }
 
 section h2{
-	padding-left: 35px;
+	padding-left: 25px;
 
 }
 
