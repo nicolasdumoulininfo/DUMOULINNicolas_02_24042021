@@ -27,11 +27,6 @@ article h2{
 	padding-top: 20px;
 }
 
-/*aside h2{
-	padding-left: 20px;
-	padding-top: 20px;
-	
-}*/
 p{
 	font-family:ralewayregular;
 	font-size: 0.8em;
@@ -44,6 +39,12 @@ p{
 	margin: auto;
 }
 
+body{
+margin-left: 0px;
+display: flex;
+justify-content: space-evenly;
+align-content: space-evenly;
+}
 
 /*header*/
 
@@ -55,19 +56,33 @@ head {position: relative;}
  
 }
 
+.colorblack{
+	color:black;
+}
+
+a {
+	color:#0065fc;
+}
+
+.gras{
+	font-weight: bold;
+}
+
 
 a:hover{
 	background-color:#DEEBFF;
 	font-size: 1.1em;
 	text-decoration: none;
 	
-	
-	
+}
+
+a .lignebleuetel{
+	border-bottom: #0065fc solid 3px;
 }
 
 a:visited{
 	text-decoration: none;
-	color: #0065fc;
+
 	
 	
 }
@@ -86,7 +101,8 @@ a:focus{
 
 a:link{
 	text-decoration: none;
-	color:#0065fc}
+	/*color:#0065fc}*/
+}
 
 	.menu{
 		display: flex;
@@ -143,6 +159,13 @@ a:link{
 	
 	}
 
+	.surlignemot--bleu{
+		border-bottom: solid #0065fc 3px;
+		justify-content:space-around;
+		text-align: center;
+		color:#0065fc;
+		
+	}
 	.spe-sinscrire{
 		text-align: right;
 		padding-right: 1em;
@@ -151,7 +174,7 @@ a:link{
 	}
 
 #enpleincentreville{
-	font-style:italic;
+	
 	font-weight:lighter;
 }
 
@@ -164,7 +187,7 @@ section{
 	
 #conteneur_recherche{
 	display: flex;
-	height: 250px;
+	height: 315px;
 	flex-direction: column;
 	
 }
@@ -291,12 +314,12 @@ span .cerclebleu{
 }
 
 #blocinformation{
-	position: relative;
+	position: absolute;
 	display: flex;
-	top:90px;
+	top:520px;
 	left:0px;
-		
-
+	width: 290px;
+	font-size: 0.9em;
 }
 
 span .cercleinfo{
@@ -346,7 +369,8 @@ article h2{
 		display: flex;
 		flex-wrap:wrap;
 		background-color:white;
-		padding:10px;
+		width: 340px;
+		justify-content: space-evenly;	
 	
 		
 		}
@@ -356,9 +380,9 @@ article h2{
 			border: white solid 2px;
 			box-shadow: 3px 3px 3px #b6b5b5;
 			border-radius:10px;
-			height: 160px;
-			width: 334px;
-			margin:15px 30px 30px 30px;
+			height: 200px;
+			width: 290px;
+			margin:15px 15px 15px 15px;
 		
 			}
 
@@ -465,14 +489,23 @@ article h2{
 /* Bloc les plus populaire*/
 
 #liseretlespluspopulaires{
-
-	flex-wrap: wrap;
-	background-color:#f2f2f2;
-	margin-left:10px;
-	border-radius: 15px 0 0 15px;
-	
+background-color: #f2f2f2;
+margin-left: 0;
+margin-top: 20px;
+justify-content: space-evenly;
+display: flex;
+flex-direction: column;
+width: 340px;
+border-radius: 15px;
 }
 
+
+#conteneurblocpopulaire{
+display: flex;
+flex-direction: column;
+justify-content: space-evenly;
+margin: 5px 5px 5px 5px;
+}
 
 /*Bloc les plus populaire*/
 #h2populaire{
@@ -485,12 +518,13 @@ width: 100%;
 	display: flex;
 	justify-content: space-between;
 	border-radius: 15px 15px 0 0;
-	
+	margin-right:15px;
 }
 .graphpop{
 	display: flex;
 	justify-content: right;
-	width: 100%;
+	
+
 
 }
 aside h2{
@@ -514,8 +548,8 @@ aside .graph{
 	border-radius:10px;
 	box-shadow: 3px 3px 3px #b6b5b5;
 	height: 147px;
-	width: 334px;
-	margin:15px 30px 30px 30px;
+	width: 290px;
+	margin:15px 15px 15px 15px;
 	display: flex;
 	
 
@@ -557,7 +591,6 @@ aside .graph{
 
 	background-color:white;
 	border-radius: 15px;
-	margin-right:18px;
 	display: flex;
 	flex-wrap: wrap;
 	flex-direction: column;
@@ -572,6 +605,7 @@ section h2{
 #conteneur_bloc_activite_marseille{
 	display: flex;
 	flex-direction: column;
+	align-items: center;
 }
 .bloc_activitevstel{
 	background-color: white;
@@ -579,8 +613,8 @@ section h2{
 	box-shadow: 3px 3px 3px #b6b5b5;
 	border-radius:10px;
 	height: 160px;
-	width: 334px;
-	margin:15px 30px 30px 30px;
+	width: 290px;
+	margin:15px 15px 15px 15px;
 }
 
 	.bloctextactivite{
@@ -598,7 +632,7 @@ section h2{
 		background-size:cover;
 		background-position: center;
 		height: 65%;
-		width: 100%;
+		width: 290px;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
 	}
@@ -609,7 +643,7 @@ section h2{
 		background-size:cover;
 		background-position: center;
 		height: 65%;
-		width: 100%;
+		width: 290px;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
 	}
@@ -620,7 +654,7 @@ section h2{
 		background-size:cover;
 		background-position: center;
 		height: 65%;
-		width: 100%;
+		width: 290px;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
 	
@@ -631,7 +665,7 @@ section h2{
 		background-size:cover;
 		background-position: center;
 		height: 65%;
-		width: 100%;
+		width: 290px;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
 		
@@ -644,7 +678,7 @@ section h2{
 		background-size:cover;
 		background-position: center;
 		height: 65%;
-		width: 100%;
+		width: 290px;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
 
@@ -656,7 +690,7 @@ section h2{
 		background-size:cover;
 		background-position: center;
 		height: 65%;
-		width: 100%;
+		width: 290px;
 		margin: 0px 0px 0px 0px;
 		border-radius: 10px 10px 0px 0px;
 
