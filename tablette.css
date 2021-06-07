@@ -346,8 +346,8 @@ article h2{
 			border: white solid 2px;
 			box-shadow: 3px 3px 3px #b6b5b5;
 			border-radius:10px;
-			height: 160px;
-			width: 334px;
+			height: 250px;
+			width: 40em;
 			margin:15px 30px 30px 30px;
 		
 			}
@@ -504,6 +504,10 @@ aside .graph{
 	padding-right: 10px;
 }
 
+.graphpop span{
+	margin-right:20px;
+}
+
 .bloctextpopulaire{
 	margin-top: 10px;
 	font-size: 1.2em;;
@@ -516,7 +520,7 @@ aside .graph{
 	border-radius:10px;
 	box-shadow: 3px 3px 3px #b6b5b5;
 	height: 200px;
-	width: auto;
+	width: 44em;
 	margin:15px 30px 30px 30px;
 	display: flex;
 	

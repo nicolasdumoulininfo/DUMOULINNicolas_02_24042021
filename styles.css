@@ -293,6 +293,12 @@ flex-direction: column;
 		width: auto;
 		}
 
+		.soushebergementtribloc{
+			display: flex;
+			flex-direction: row;
+			justify-content: space-evenly;
+		}
+
 			.blocphototohebergement{
 			background-color: white;
 			border: white solid 2px;
@@ -301,6 +307,7 @@ flex-direction: column;
 			height: 225px;
 			width: 290px;
 			margin-bottom: 25px;
+			margin-right: 25px;
 			}
 
 			.desctexte{
