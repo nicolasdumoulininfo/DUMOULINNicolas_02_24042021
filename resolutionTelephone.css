@@ -11,11 +11,11 @@
 
 
 h1{
-font-size: 1.1em;
-font-family: ralewayregular;
-margin-left: 50px;
-margin-right: 50px;
-width: auto;
+	font-size: 1.1em;
+	font-family: ralewayregular;
+	margin-right: 50px;
+	padding-left: 70px;
+	width: auto;
 }
 
 h2{
@@ -38,20 +38,22 @@ p{
 
 
 .blocpage{
-	width:95%;
-	margin: auto;
+	width:100%;
+	margin:0px;
 }
 
 body{
-margin-left: 0px;
-display: flex;
-justify-content: space-evenly;
-align-content: space-evenly;
+	margin-left: 0px;
+	display: flex;
+	justify-content: space-evenly;
+	align-content: space-evenly;
+
 }
 
 /*header*/
 
-head {position: relative;}
+head {
+	position: relative;}
 
 .logo{
 	height:40px;
@@ -71,23 +73,12 @@ a {
 	font-weight: bold;
 }
 
-
-a:hover{
-	background-color:#DEEBFF;
-	font-size: 1.1em;
-	text-decoration: none;
-	
-}
-
 a .lignebleuetel{
 	border-bottom: #0065fc solid 3px;
 }
 
 a:visited{
-	text-decoration: none;
-
-	
-	
+	text-decoration: none;	
 }
 
 a:active{
@@ -110,13 +101,14 @@ a:link{
 	.menu{
 		display: flex;
 		justify-content: space-between;
-		margin-bottom: 30px;
-		
-		
+		margin-bottom: 30px;	
 	}
+
+
 	nav{
 		width: 100%;
 	}
+
 	.divlogo{
 
 		position: absolute;
@@ -155,10 +147,10 @@ a:link{
 		
 	}
 	.surlignemot{
-	border-bottom: solid #f2f2f2;
-	justify-content:space-around;
-	text-align: center;
-	color:#0065fc;
+		border-bottom: solid #f2f2f2;
+		justify-content:space-around;
+		text-align: center;
+		color:#0065fc;
 	
 	}
 
@@ -180,6 +172,8 @@ a:link{
 	
 	font-weight:lighter;
 	font-size: 0.7em;
+	text-align:left;
+	padding-left:70px;
 }
 
 	/*block de recherche*/
@@ -205,7 +199,6 @@ section{
 }
 
 #iconelocal{
-	/*position: absolute;*/
 	top: 11px;
 	font-size: 1.1em;
 	text-align: center;
@@ -220,8 +213,6 @@ section{
 }
 
 #formrecherche{
-	/*position: absolute;*/
-	
 	font-family:ralewayregular;
 	font-size: 0.8em;
 	font-weight: bold;
@@ -233,12 +224,9 @@ section{
 	border-bottom: 1px solid #f2f2f2;
 	border-left:0px;
 	border-right:0px;
-	
-
 }
 
 #iconerecherche{
-	/*position: absolute;*/
 	top:13px;
 	left:200px;
 	background-color: #0065fc;
@@ -248,7 +236,6 @@ section{
 	padding-top: 12px;
 	padding-bottom:12px;
 	width: 30px;
-	/*font-family: raleway;*/
 	font-size: 0.8em;
 	border-radius: 10px;
 	text-align: center;
@@ -277,8 +264,6 @@ section{
 
 }
 
-
-
 .filtremenu{
 	display: none;
 	padding-left:0px;
@@ -287,8 +272,6 @@ section{
 	font-family: ralewayregular;
 	
 }
-
-
 
 span .cerclebleu{
 	margin-right:25px;
@@ -332,7 +315,7 @@ span .fa-money-bill-wave{
 #blocinformation{
 	position: absolute;
 	display: flex;
-	top:520px;
+	top:510px;
 	left:0px;
 	width: 290px;
 	font-size: 0.9em;
@@ -364,7 +347,6 @@ span .cercleinfo{
 article{
 	background-color:white;
 	border-radius: 15px;
-	margin-right:18px;
 }
 
 article h2{
@@ -383,23 +365,23 @@ article h2{
 	
 }
 		#hebergements{
-		display: flex;
-		flex-wrap:wrap;
-		background-color:white;
-		width: 340px;
-		justify-content: space-evenly;	
+			display: flex;
+			flex-wrap:wrap;
+			background-color:white;
+			width: 340px;
+			justify-content: space-evenly;	
 	
 		
 		}
 
 			.blocphototohebergement{
-			background-color: white;
-			border: white solid 2px;
-			box-shadow: 3px 3px 3px #b6b5b5;
-			border-radius:10px;
-			height: 200px;
-			width: 290px;
-			margin:15px 15px 15px 15px;
+				background-color: white;
+				border: white solid 2px;
+				box-shadow: 3px 3px 3px #b6b5b5;
+				border-radius:10px;
+				height: 200px;
+				width: 290px;
+				margin:15px 15px 15px 15px;
 		
 			}
 
@@ -418,59 +400,59 @@ article h2{
 				}
 
 				#imagehebergement2{
-				background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
-				background-size: cover;
-				background-position: center;
-				height: 65%;
-				width: 100%;
-				margin: 0px 0px 0px 0px;
-				border-radius: 10px 10px 0px 0px;
+					background-image:url("images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height: 65%;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					border-radius: 10px 10px 0px 0px;
 				}
 
 				#imagehebergement3{
-				background-image:url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
-				background-size: cover;
-				background-position: center;
-				height: 65%;
-				width: 100%;
-				margin: 0px 0px 0px 0px;
-				border-radius: 10px 10px 0px 0px;
+					background-image:url("images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height: 65%;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					border-radius: 10px 10px 0px 0px;
 				}
 				
 				#imagehebergement4{
-				background-image:url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
-				background-size: cover;
-				background-position: center;
-				height: 65%;
-				width: 100%;
-				margin: 0px 0px 0px 0px;
-				border-radius: 10px 10px 0px 0px;
+					background-image:url("images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height: 65%;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					border-radius: 10px 10px 0px 0px;
 				}
 
 				#imagehebergement5{
-				background-image:url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
-				background-size: cover;
-				background-position: center;
-				height: 65%;
-				width: 100%;
-				margin: 0px 0px 0px 0px;
-				border-radius: 10px 10px 0px 0px;
+					background-image:url("images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg");
+					background-size: cover;
+					background-position: center;
+					height: 65%;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					border-radius: 10px 10px 0px 0px;
 				}	
 				#imagehebergement6{
-				background-image:url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
-				background-size:cover;
-				background-position: center;
-				height: 65%;
-				width: 100%;
-				margin: 0px 0px 0px 0px;
-				border-radius: 10px 10px 0px 0px;
+					background-image:url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
+					background-size:cover;
+					background-position: center;
+					height: 65%;
+					width: 100%;
+					margin: 0px 0px 0px 0px;
+					border-radius: 10px 10px 0px 0px;
 				}
 
 				.descriptionphoto{
-				font-size: 0.8em;
-				font-weight: bold;
-				font-family: ralewayregular;
-				margin: 1px;
+					font-size: 0.8em;
+					font-weight: bold;
+					font-family: ralewayregular;
+					margin: 1px;
 				}	
 
 				.espacetextvstel{
@@ -479,15 +461,15 @@ article h2{
 				}
 
 				.prix{
-				font-weight: bold;
-				font-size: 1em;
+					font-weight: bold;
+					font-size: 1em;
 				
 				}
 
 				span .etoilebleue{
-				font-size: 0.7em;
-				color:#0065FC;
-				padding:0px;
+					font-size: 0.7em;
+					color:#0065FC;
+					padding:0px;
 				
 				}
 
@@ -510,29 +492,29 @@ article h2{
 /* Bloc les plus populaire*/
 
 #liseretlespluspopulaires{
-background-color: #f2f2f2;
-margin-left: 0;
-margin-right: 0;
-margin-top: 20px;
-justify-content: space-evenly;
-display: flex;
-flex-direction: column;
-width: auto;
+	background-color: #f2f2f2;
+	margin-left: 0;
+	margin-right: 0;
+	margin-top: 20px;
+	justify-content: space-evenly;
+	display: flex;
+	flex-direction: column;
+	width: auto;
 
 }
 
 
 #conteneurblocpopulaire{
-display: flex;
-flex-direction: column;
-justify-content: space-evenly;
-margin: 5px 5px 5px 5px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	margin: 5px 5px 5px 5px;
 }
 
 /*Bloc les plus populaire*/
+
 #h2populaire{
-	
-width: 100%;
+	width: 100%;
 
 }
 
@@ -573,8 +555,6 @@ aside .graph{
 	width: 290px;
 	margin:15px 15px 15px 15px;
 	display: flex;
-	
-
 }
 
 	.imagepopulaire{
@@ -610,7 +590,6 @@ aside .graph{
 /*activites à Marseille*/
 
 #section_conteneur_activites{
-
 	background-color:white;
 	border-radius: 15px;
 	display: flex;
