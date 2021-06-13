@@ -104,8 +104,8 @@ a {
 }
 
 a:hover{
-	background-color:#DEEBFF;
-	font-size: 1.1em;
+	/*background-color:#DEEBFF;
+	font-size: 1.1em;*/
 	text-decoration: none;
 }
 
