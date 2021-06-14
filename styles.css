@@ -158,8 +158,8 @@ a:link{
 #formrecherche{
 	position: absolute;
 	top:11px;
-	font-family:ralewayregular;
-	font-size: 0.8em;
+	font-family:"ralewayregular";
+	font-size: 0.9em;
 	font-weight: bold;
 	height: 33px;
 	left:35px;
@@ -299,7 +299,7 @@ article{
 
 			.blocphototohebergement{
 				background-color: white;
-				border: white solid 2px;
+				/*border: white solid 2px;*/
 				box-shadow: 3px 3px 3px #b6b5b5;
 				border-radius: 10px;
 				height: 225px;
@@ -308,6 +308,8 @@ article{
 				margin-right: 12px;
 				margin-left: 12px;
 				flex:1;
+				padding-left:5px;
+				padding-top:5px;
 			}
 
 				.desctexte{
@@ -445,7 +447,7 @@ article{
 
 		.blocphototopopullaire{
 			background-color: white;
-			border: white solid 2px;
+			/*border: white solid 2px;*/
 			border-radius:10px;
 			box-shadow: 3px 3px 3px #b6b5b5;
 			height: 150px;
