@@ -12,7 +12,7 @@
 /*effet zoompage*/
 
 .blocpage{
-	width:90%;
+	width:95%;
 	margin: auto;
 	
 }
@@ -84,10 +84,13 @@ head {position: relative;}
 	display:flex;
 	flex-direction: row;
 	justify-content: space-between;
+
 	
 }
 		.motmenu{
 			padding-left:60px;
+			font-family:'ralewayregular';
+			font-weight: bold;
 			
 		}
 
@@ -323,6 +326,7 @@ article{
 					height:55%;
 					width:95%;
 					margin:5px 5px 5px 5px;
+					border-radius: 9px 9px 0px 0px;
 				}
 
 				#imagehebergement2{
@@ -332,6 +336,7 @@ article{
 					height:55%;
 					width:95%;
 					margin:5px 5px 5px 5px;
+					border-radius: 9px 9px 0px 0px;
 				}
 
 				#imagehebergement3{
@@ -341,6 +346,7 @@ article{
 					height:55%;
 					width:95%;
 					margin:5px 5px 5px 5px;
+					border-radius: 9px 9px 0px 0px;
 				}
 				
 				#imagehebergement4{
@@ -350,6 +356,7 @@ article{
 					height:55%;
 					width:95%;
 					margin:5px 5px 5px 5px;
+					border-radius: 9px 9px 0px 0px;
 				}
 
 				#imagehebergement5{
@@ -359,6 +366,7 @@ article{
 					height:55%;
 					width:95%;
 					margin:5px 5px 5px 5px;
+					border-radius: 9px 9px 0px 0px;
 				}	
 				#imagehebergement6{
 					background-image:url("images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg");
@@ -367,6 +375,7 @@ article{
 					height:55%;
 					width:95%;
 					margin:5px 5px 5px 5px;
+					border-radius: 9px 9px 0px 0px;
 				}
 
 				.descriptionphoto{

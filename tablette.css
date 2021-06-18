@@ -118,6 +118,8 @@ a:link{
 		padding-bottom: 15px;
         font-size: 1.2em;
         padding-top:1em;
+		font-family:'ralewayregular';
+		font-weight: bold;
 		
 		
 	}
@@ -337,7 +339,7 @@ article h2{
 				box-shadow: 3px 3px 3px #b6b5b5;
 				border-radius:10px;
 				height: 250px;
-				width: 40em;
+				min-width: 480px;
 				margin:15px 30px 30px 30px;
 		
 			}
@@ -518,7 +520,7 @@ aside .graph{
 		background-size: cover;
 		background-position: center;
 		height:95%;
-		width:80%;
+		width:60%;
 		margin:5px 5px 5px 5px;
 		border-radius:10px 0 0 10px;
 
@@ -573,8 +575,8 @@ section h2{
 	background-color: white;
 	box-shadow: 3px 3px 3px #b6b5b5;
 	border-radius:10px;
-	height: 25em;
-	width: 44em;
+	height: 250px;
+	min-width: 480px;
 	margin:15px 30px 30px 30px;
 }
 
@@ -667,7 +669,7 @@ footer{
 	justify-content: space-evenly;
 	position: relative;
 	top: 100px;
-	height: 250px;
+	height:auto;
 }
 	.bloc_footer{
 		padding-left: 30px;

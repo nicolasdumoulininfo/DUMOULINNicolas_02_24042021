@@ -145,6 +145,8 @@ a:link{
 		padding-right:0;
 		width: 100%;
 		padding-bottom: 15px;
+		font-family:'ralewayregular';
+		font-weight: bold;
 		
 		
 	}
@@ -561,7 +563,7 @@ aside .graph{
 	min-width: 300px;
 	margin:1px 15px 15px 15px;
 	display: flex;
-	flex:1;
+
 }
 
 	.imagepopulaire{
